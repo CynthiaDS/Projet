@@ -1,0 +1,184 @@
+body {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+main {
+    font-family: 'Karla', sans-serif;
+    margin: auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;  
+}
+
+#supérieur {
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 8px 8px 0 0;
+}
+
+h1 {
+    color: #2AB3B1;
+    margin: 0;
+    font-weight: 700;
+}
+
+h2 {
+    color: #C0DF33;
+}
+
+#supérieur p {
+    color: #9AA7BE;
+    line-height: 26px;
+}
+
+#inférieur {
+    display:flex;
+}
+
+#inférieur h3 {
+    margin: 0;
+    font-weight: 700;
+}
+
+#month h3 {
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.money {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.money p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.money p:first-child {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.money p:last-child {
+    font-weight: 400;
+    padding: 0.6875rem;
+}
+
+#gauche {
+    background-color: #2AB3B1;
+    color: #fff;  
+    padding: 3rem;
+    width: 50%;
+}
+
+#month h3 {
+    background-color: #C0DF33;
+    box-shadow: 3px 3px 3px #1d8a88;
+    text-align: center;
+}
+
+.money {
+    margin-top: 18px;
+}
+
+.money p:last-child {
+    opacity: 50%;
+    
+}
+
+.full {
+    margin: 0;
+    padding: 26px;
+}
+
+#droit {
+    background-color: #2AB3B1;
+    opacity: 75%;
+    color: #fff;  
+    padding: 3rem;
+    width: 50%;
+}
+
+#droit p {
+    opacity: 75%;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 667px) {
+
+    #inférieur {
+        flex-direction: column;
+        margin: 0;
+        pad: 0;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+        letter-spacing: -0.0156rem;
+        line-height: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+        letter-spacing: -0.0119rem;
+        line-height: 20px;
+    }
+
+    #supérieur p {
+        font-size: 0.875rem;
+        letter-spacing: -0.0106rem;
+        line-height: 30px;
+    }
+
+    #gauche {
+        width: auto;
+    }
+
+    #gauche h3 {
+        font-size: 1.125rem;
+        letter-spacing: -0.0138rem;
+        line-height: 30px;
+    }
+
+    #month p:first-child {
+        font-size: 2rem;
+        letter-spacing: -0.025rem;
+    }
+
+    #month p:last-child {
+        font-size: 1rem;
+        letter-spacing: -0.0125rem;
+    }
+    
+    .full {
+        font-size: 1rem;
+        letter-spacing: -0.0125rem;
+        padding: 20px;
+    }
+
+    #month h3 {
+        font-size: 1rem;
+        letter-spacing: -0.0125rem;
+        text-align: center;
+    }
+
+    #droit {
+        width: auto;
+        line-height: 30px;
+    }
+
+    #droit h3 {
+        font-size: 1.125rem;
+        letter-spacing: 0.0138rem;
+    }
+
+    #droit p {
+        font-size: 0.875rem;
+        letter-spacing: -0.0106rem;
+    }
+}
