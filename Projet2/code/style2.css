@@ -1,0 +1,72 @@
+.bloc {
+    /* margin-top: 60%; */
+    margin-left: auto;    
+    resize: 2px;
+    font-weight: bold;
+    font-family: 'kumbh',sans-serif;
+    font-weight: 700;
+    margin-top: 15%;
+    text-align: 550;
+    margin-right: auto;
+    width: 450px;
+    
+
+}
+
+.tollier {
+    color:#EE1414;
+    height: 15px;
+    margin-top: 23px;
+    font-family: 'kumbh',sans-serif;
+    left: 18px; 
+   
+}
+
+.casual {
+    width: 447px;
+        height: 107px;
+        left: 18px;
+        top: 51px;
+        font-family: 'kumbh',sans-serif;
+        font-weight: 700;
+        font-size: 44px;
+        margin-top: 12px;
+        margin: 23px;
+        
+}
+
+.baskets {
+    width: 27rem;
+        height: 106px;
+        left: 18px;
+        top: 183px;
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: 'kumbh',sans-serif;
+        
+}     
+
+.prix {
+    left: 18px;
+    font-family: 'kumbh',sans-serif;
+    resize: 100px;
+    font-size: 28px;
+    height: 20px;
+    line-height: 70px;
+    
+}
+
+.solde {
+    font-weight: 700;
+    font-family: 'kumbh',sans-serif;
+    left: 18px;
+    margin-bottom: 20%;
+    text-decoration: line-through;
+    color: #69707D;
+    font-weight: 700;
+    
+}
+
+    
