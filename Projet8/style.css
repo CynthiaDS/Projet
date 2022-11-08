@@ -1,55 +1,214 @@
 :root {
-    font-size: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     margin: 0;
+    background-image: url("image/Rectangle.png");
+    background-size: 2000px 1000px;
+    background-repeat: no-repeat;
+    background-position: 50% 49%;
 }
 
 main {
-    width: 1440px;
-    margin: 0;  
+    min-height: 100vh;
+
 }
 
-/* header block */
+/* <!-- big box --> */
 
-#box {
+#menu {
+    height: 100%;
     display: grid;
-    grid-template-columns: 720px 720px;
-    grid-template-rows: 200px 500px 500px 500px 500px;
+    grid-template-columns: 50% 50%;
+    grid-column: span 2;
+    grid-template-rows: 10% 30% 30% 15% 15%;
+    height: 2400px;
 }
+
+/* <!-- header block --> */
 
 #fylo {
+    margin-top: 20px;
+    padding-left: 86px;
+}
+
+#fylo img:first-child {
+    padding-right: 16px;
+}
+
+#rightPart {
     display: flex;
-    padding: 85px 80px;
-    margin: 0;
-}
-
-#fylo :first-child {
-    padding-left: 16px;
-}
-
-h1 {
-    margin: 0;
-    width: 93.96px;   
-    height: 49px;
-    padding-left: 16px;
-    text-transform: capitalize;
-}
-
-#box1 {
-    grid-column: 2;
-    display: flex;
-    margin-top: 80px;
-    margin-left: 271px;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10%;
+    margin-top: 20px;
 }
 
 #box1 p:nth-child(2) {
     padding: 0 57px;
-
-    
 }
+
+/* <!-- upper block --> */
 
 #box2 {
-    padding: 20px;
+    padding-left: 86px;
 }
+
+h1{
+    font-size: 40px;
+    font-family:'Raleway', sans-serif;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+#texte p:first-child {
+    font-family:'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.0331rem;
+    font-weight: 400;
+    width: 585px;
+    height: 72px;
+}
+
+#button1 .mail {
+    width: 305px;
+    height: 34px;
+}
+
+#button1 button{
+    background-color: #2F65F8;
+    width: 200px;
+    height: 39px;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+}
+
+.ima {
+    width: 640px;
+    height: 474px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* <!-- middle block --> */
+
+#box3 {
+    padding: 80px;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+h2 {
+    font-family:'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#box3 {
+    margin-bottom: 150px;
+}
+
+#box3 p:nth-child(2) {
+    font-family: 'Open Sans', sans-serif; 
+    margin: 0;
+}
+
+#box3 p:nth-child(3) {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 16px 0 ;
+}
+
+a {
+    color: #3DA08F;
+}
+
+a:hover {
+    color: #71DFCC;
+}
+
+/* <!-- Visit card --> */
+
+#box4 {
+    width: 356px;
+    background-color: #fff;
+    grid-row: 3;
+    grid-column: 1;
+    margin-top: 400px;
+    margin-left: 80px;
+    padding-bottom: 90px;
+    border-radius: 6px; 
+}
+
+#commentaire {
+    padding: 12px 49px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 23px;
+    margin: 0; 
+}
+
+p:nth-child(2) {
+    margin: 0;
+}
+
+#photo {
+    padding-left: 33px;
+    display: flex;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+#nom {
+    margin-left: 10px;
+    line-height: 15px;
+    margin-top: 15px;
+}
+
+#nom p:first-child {
+    margin: 0;
+    flex-direction: row;
+    font-size: 11px;    
+}
+
+#nom p:nth-child(2) {
+    margin: 0;
+    flex-direction: row;
+}
+
+/* <!-- bottom block --> */
+
+#box5 {
+    margin: 0;
+    padding: 100px 80px;
+    background-color: #575988;
+    color: #fff;
+    width: 2000px;
+    height: 360px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 33px;
+}
+
+p {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.0313rem;
+    line-height: 24px;
+}
+
+#button2 .mail2 {
+    width: 480px;
+    height: 48px;
+    border-radius: 6px;
+}
+
+/* <!-- last block --> */

@@ -1,0 +1,434 @@
+body {
+    margin: 0; 
+}
+
+main {
+    height: 100vh;
+    width: 1440px;
+}
+
+/* <!-- menu --> */
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fylo {
+    margin-top: 5rem;
+    padding-left: 5.37rem;
+    display: flex;
+}
+
+#fylo p {
+    padding-left: 16px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+#menuright {
+    margin: 1rem;
+    padding-top: 5rem;   
+}
+
+span {
+    font-family: 'Raleway', sans-serif;
+}
+
+#menuright span:nth-child(3) {
+    padding-right: 5rem;
+}
+
+#menuright span:nth-child(2) {
+    padding: 0 3.5625rem;
+}
+
+/* <!-- upper block --> */
+
+#upperBlock {
+    display: flex;
+    margin-top: 87px;
+    padding-left: 80px;
+}
+
+#leftUperPart {
+    width: 50%;
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.0625rem;
+    letter-spacing: 0.0331rem;
+    padding-right: 150px;
+}
+
+.mail {
+    width: 320px;
+    height: 47px;
+    margin-right: 16px;
+    padding: 0;
+    border-radius: 3px;
+}
+
+.button {
+    background-color: #2F65F8;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 3px;
+}
+
+#rightUpperPart {
+    width: 50%;
+    display: flex;
+}
+
+/* <!-- middle block --> */
+
+#middleBlock {
+    display: flex;
+    background-image: url("image/Rectangle.png");
+    background-size: 2000px 1100px;
+    background-repeat: no-repeat;
+    background-position: 50% 92%;
+}
+
+#leftMiddlePart {
+    padding: 288px 80px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    line-height: 47px;
+}
+
+p:first-child {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+#leftMiddlePart p:nth-child(2) {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+    color: #3DA08F;
+}
+
+a:hover {
+    color: #71DFCC;
+}
+
+#box3 img:hover {
+    color: #71DFCC;
+}
+
+/* <!-- Visit card --> */
+
+#visitCard {
+    background-color: #fff;
+    font-family: 'Nunito Sans';
+    padding-left: 33px;
+    width: 356px;
+    margin-top: 45px;
+}
+
+#comment {
+    height: 215px;
+}
+
+p:first-child {
+    margin: 0;
+    padding: 12px;
+}
+
+p:nth-child(2) {
+    font-size: 0.8125rem;
+    letter-spacing: 0.0313rem;
+    line-height: 23px;
+    padding-right: 40px;
+}
+
+#photo {
+    display: flex;
+}
+
+#photo img {
+    height: 32px;
+    margin-right: 8px;
+}
+
+p {
+    padding: 0;
+}
+
+#name p:first-child{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6875rem;
+    letter-spacing: 0.0344rem;
+    font-weight: 700;
+    padding: 0;
+}
+
+#name p:nth-child(2) {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.5rem;
+    letter-spacing: 0.025rem;
+    line-height: 15px;
+}
+
+#rightMiddlePart {
+    padding: 288px 80px;
+}
+
+/* <!-- bottom block --> */
+
+#bottomBlock {
+    display: flex;
+    background-color: #575988;
+}
+
+#paragraph {
+    padding: 80px;
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+
+#paragraph p {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    width: 539px;
+}
+
+#button1 {
+    padding-top: 100px;
+}
+
+#button1 .mail2 {
+    width: 485px;
+    height: 48px;
+    margin: 16px;
+    border-radius: 3px;
+    border: none;
+}
+
+#button1 .button1 {
+    background-color: #2F65F8;
+    color: #fff;
+    width: 202px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 0.875rem;
+    border: none;
+    border-radius: 3px;
+    margin: 14px;
+}
+
+/* <!-- last block --> */
+
+#lastBlock {
+    justify-content: space-around;
+    background-color: #07043B;
+    display: flex;
+    padding:  92px 0 0 0;
+}
+
+#lastBlock p {
+    color: #fff;
+}
+
+img.logo {
+    margin-right: 12px;
+}
+
+#lastBlockMiddleLeft {
+    padding-top: 50px;
+}
+
+#lastBlockMiddleLeft ul {
+    line-height: 50px;
+}
+
+#lastBlockMiddleLeft a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#lastBlockMiddleright {
+    padding-top: 50px;
+}
+
+#lastBlockMiddleright p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+#lastBlockright {
+    display: flex;
+    margin-top: 75px;
+    margin-right: 150px;
+}
+
+#lastBlockright p {
+    margin: 0;
+    padding: 0;
+}
+
+#lastBlockright a:first-child {
+    margin-right: 16px;
+}
+
+.sociale:hover {
+    filter: brightness(95%) hue-rotate(350deg) saturate(250%) contrast(1);
+}
+
+@media screen and (max-width:667px) {
+
+   #fylo img:first-child {
+    width: 80px;
+    height: auto;
+   }
+
+   #menu {
+    width: 327px;
+    height: 24px;
+   }
+
+   #menuright {
+    display: flex;
+    flex-direction: row;
+   }
+
+   .image {
+    width: 304px;
+    height: 225px;
+   }
+
+   #middleBlock {
+    display: flex;
+    flex-direction:column-reverse;
+    width: 667px;
+    height: 961px;
+   }
+
+   #upperBlock {
+    display: flex;
+    flex-direction:column-reverse;
+   }
+
+   #rightMiddlePart img {
+    width: 320px;
+    height: auto;
+   }
+   
+   #bottomBlock {
+    width: 667px;
+    height: auto;
+    display: block;
+   }
+
+   #lastBlock {
+    width: 667px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   }
+
+   #paragraph {
+    display: block
+   }
+
+   #paragraph h3 {
+   text-align: center;
+   }   
+
+   #paragraph p {
+    width: 280px;
+    height: auto;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 18px;
+   }
+
+   #button1 {
+   text-align: center;
+   padding: 0;
+   }
+   
+   #button1 input {
+    width: 240px;
+    height: auto;
+   }
+
+   #button1 .button1  {
+    margin-bottom: 90px;
+    width: 488px;
+    height: 50px;
+   }
+
+   #phone {
+    margin-left: 80px;
+    padding: 0;
+   }
+
+   .logo img:first-child {
+    width: 81px;
+    height: auto;
+   }
+
+   .logo p:last-child {
+    padding: 0;
+   }
+
+   p:nth-child(2) {
+    padding: 0;
+   }
+
+   #lastBlockMiddleLeft {
+    margin-left: 39px;
+    font-size: 16px;
+   }
+
+   #lastBlockMiddleright {
+    margin-left: 39px;
+   }
+
+   #lastBlockMiddleright p {
+    padding: 0;
+    font-size: 16px;
+    margin-left: 39px;
+   }
+
+   #lastBlockright {
+    width: 104px;
+    height: auto;
+    margin-bottom: 62px;
+    margin-left: 220px;
+    font-size: 16px;
+   }
+
+   .sociale {
+    width: 55px;
+    height: auto;
+   }
+}
+    
+
+
