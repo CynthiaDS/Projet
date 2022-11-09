@@ -21,7 +21,7 @@ main {
     background-image: url(image/backgroundSection1.svg);
     background-repeat: no-repeat;
     background-color: #232323;
-    height: 1087px;
+    height: 1090px;
 }
 
 .header {
@@ -41,6 +41,8 @@ main {
     font-family: 'Roboto-Regular', sans-serif;
     font-weight: 900;
     font-size: 2.5rem;
+    margin: 0;
+    padding-top: 10px;
 }
 
 .header > p:nth-child(2) {
@@ -54,6 +56,19 @@ main {
 
 .header > p:last-child > img {
     margin-right: 13px;
+}
+
+.mail {
+    margin-right: 13px;
+}
+
+.burger span {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background-color: #888888;
+    margin: 8px 0;
+    margin-left: 890px;
 }
 
 .LeftPart {
@@ -145,10 +160,6 @@ button {
     display: flex; 
 }
 
-#Familly {
-    margin-bottom: 30px;
-}
-
 #clients {
     font-family: 'Roboto-Regular', sans-serif;
     letter-spacing: 0.1875rem;
@@ -159,7 +170,7 @@ button {
 }
 
 #RightPart {
-    margin-top: 33px;
+    margin-top: 19px;
 }
 
 #FooterFirstBlock {
