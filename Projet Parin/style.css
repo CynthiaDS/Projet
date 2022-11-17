@@ -21,6 +21,7 @@ main {
     background-image: url(image/backgroundSection1.svg);
     background-repeat: no-repeat;
     background-color: #232323;
+    width: 1880px;
     height: 1090px;
 }
 
@@ -77,7 +78,6 @@ main {
     margin-left: 393px;
     margin-top: 10px;
     margin-right: 72px;
-    margin-bottom: 15px;
 }
 
 .LeftPart > p:first-child {
@@ -146,7 +146,27 @@ button {
     border: none;
 }
 
+.click:hover {
+    background-color: #232323;
+    border-color: #F87F28;
+    border-style: solid;
+    color: #F87F28;
+    border-radius: 50px;
+    width: 131px;
+    height: 47px;
+}
+
 .click2 {
+    background-color: #BB2323;
+    color: #ffff;
+    width: 123px;
+    height: 47px;
+    border-radius: 50px;
+    margin-right: 23px;
+    border: none;
+}
+
+.click2:hover {
     background-color: #232323;
     border-color: #F87F28;
     border-style: solid;
@@ -166,7 +186,7 @@ button {
     color: #BFBFBF;
     text-transform: uppercase;
     text-align: center;
-    padding-left: 25px;
+    padding-left: 14px;
 }
 
 #RightPart {
@@ -208,19 +228,400 @@ button {
 }
 
 @media screen and (max-width:375px) {
-    
+    main {
+        width: 375px;
+        height: auto;
+    }
+
+    .header {
+        width: 375px; 
+        height: auto;
+        margin: 0;
+    }
+
+    #burger {
+        background-color: #F87F28;
+        padding: 8px 14px 8px 14px;
+        border-radius: 50px;
+        margin-left: 58px;
+    }
+
+    #burger span{
+        margin-left: 0;
+        background-color: #FFFF;
+    }
+
+    #FirstSection {
+        background-image: none;
+        width: 375px;
+    }
+
+    #FirstSection > .header p:first-child {
+        width: 154px;
+        height: 36px;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    #FirstSection > .header p:nth-child(2) {
+        display: none;
+    }
+
+    #FirstSection > .header p:nth-child(3) {
+        display: none;
+    }
+
+    #FirstPart {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    }
+
+    .LeftPart {
+        margin: 0;
+        height: 620px;
+    }
+
+    .LeftPart > p:first-child {
+        padding: 0;
+        width: 330px;
+        font-size: 14;
+        letter-spacing: 0.25rem;
+        font-weight: 400;
+        margin-top: 100px;
+        margin-left: 29px;
+    }
+
+    .LeftPart h1:nth-child(2) {
+        font-size: 2.5rem;
+        margin-left: 25px;
+    }
+
+    .LeftPart h1:nth-child(3) {
+        font-size: 4.5rem;
+        margin-left: 23px;
+    }
+
+    .LeftPart p:nth-child(4) {
+        width: 320px;
+        margin-left: 29px;
+    }
+
+    .LeftPart p:nth-child(5) {
+        margin-left: 29px;
+    }
+
+    button, .click {
+        margin-left: 24px; 
+        margin-top: 32px;
+    }
+
+    button, .click2 {
+        margin: 0;
+    }
+
+    #RightPart > p {
+        display: none;
+    }
+
+    #clients p {
+        padding: 0;
+        margin: 0;
+        padding-right: 250px;
+    }
+
+    #FooterFirstBlock {
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 3;
+        padding: 0;
+    }
+
+    .sega {
+        margin-left: 10px;  
+    }
+
+    .ubisoft {
+        width: 82px;
+        height: 76px;
+    }
+
+    .game2 p:first-child {
+        margin: 0;
+    }
+
+    .microsoft {
+        padding: 0;
+        width: 135px;
+        height: 84px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .electronic {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .game3 {
+        margin: 0;
+        margin-bottom: 20px;
+        
+    }
+
+    .capcom {
+        width: 131px;
+        height: 24px;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .bethesda {
+        margin-top: 20px;
+        width: 158px;
+        height: 22px;
+    } 
 }
 
 /* <!-- Second Section --> */
 
+#SecondSection {
+    width: 1880px;
+    height: 819px;
+    background-image: url(image/BackgroundSection2.svg);
+    background-position: 0 0;
+}
+
+#SecondSection {
+    color: #FFFF;
+    font-family: 'Inter-Regular', sans-serif; 
+}
+
+#SecondSection2 {
+    display: flex;
+    justify-content: center;
+}
+
+.Skills h2 {
+    font-weight: 600;
+    font-size: 2.25rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 152px;
+    margin-right: 20px;
+}
+
+.Skills p {
+    margin: 0;
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 45px 765px 0 768px;
+}
+
+.Skills2 {
+    padding-top: 116px;
+    width: 172px;
+    padding-right: 112px;
+}
+
+.Technical {
+    background-color: #ffff;
+    padding: 14px 16px 18px 16px;
+    border-radius: 18px;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.Skills3 {
+    padding-top: 116px;
+    width: 172px;
+    padding-right: 112px;
+}
+
+.Pen {
+    background-color: #ffff;
+    padding: 14px 16px 18px 16px;
+    border-radius: 18px;
+}
+
+.Skills4 {
+    width: 172px;
+    height: 182px;
+    padding-right: 112px;
+    padding-top: 116px;
+}
+
+.Star {
+    background-color: #ffff;
+    padding: 14px 16px 18px 16px;
+    border-radius: 18px;
+}
+
+.Skills5 {
+    width: 172px;
+    height: 182px;
+    padding-top: 116px;
+}
+
+.Networks {
+    background-color: #ffff;
+    padding: 14px 16px 18px 16px;
+    border-radius: 18px;
+}
+
 @media screen and (max-width:375px) {
+
+    #SecondSection {
+        width: 375px;
+        height: auto;
+        background-color: #232323;
+        background-image: none;
+    }
     
+    #SecondSection2 {
+        display: block;
+        margin-left: 38px;
+    }
+
+    .Skills {
+        padding-bottom: 40px;
+    }
+
+    .Skills h2 {
+        padding: 72px;
+    }
+
+    .Skills p {
+        padding: 0;
+        margin-right: 12px;
+        text-align: initial;
+        width: 325px;
+        margin-left: 43px;
+    }
+
+    .Skills2 {
+        width: 278px;
+        font-size: 14px;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    .Skills3 {
+        padding: 0;
+    }
+    
+    .Skills4 {
+        padding: 0;
+        margin-top: 41px;
+    }
+
+    .Skills5 {
+        padding: 0;
+        margin-top: 41px;
+    }
 }
 
 /* <!-- Third Section --> */
 
+#ThirdSection {
+    width: 1880px;
+    height: 880px;
+    background-color: #202020;
+    background-image: url(image/background3.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 1880px;
+    font-family: 'Inter-Regular', sans-serif;
+}
+
+.Text p:nth-child(1) {
+    color: #FFFF;
+    margin: 0;
+    font-weight: 600;
+    font-size: 2.25rem;
+    padding-top: 111px;
+    margin-left: 382px;
+}
+
+.Text p:last-child {
+    color: #FFFF;
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.875rem;
+    width: 296px;
+    margin-left: 382px;
+    padding-top: 39px;
+}
+
+#ThirdSection {
+    display: flex;
+}
+
+#Photo {
+    margin-top: 111px;
+}
+
+.Photo1 {
+    display: flex; 
+}
+
+.photo1, p {
+    margin: 0;
+}
+
+.Photo1 p:first-child {
+    margin-left: 77px;
+    margin-right: 24px;
+}
+
+.Photo2, p {
+    margin: 0;
+}
+
+.Photo2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.Photo2, p:first-child {
+    margin-left: 40px;
+    margin-right: 24px;
+}
+
+.Photo3 {
+    display: flex;
+}
+
+.Photo3 {
+    margin-left: 40px;
+    margin-top: 24px;
+}
+
 @media screen and (max-width:375px) {
+    #ThirdSection {
+        width: 375px;
+        height: auto;
+        background-color: #202020;
+        background-image: none;
+    }
+
+    .Text p:nth-child(1) {
+        margin: 0;
+        padding-right: 38px;
+    }
     
+    .Text p:last-child {
+        margin: 0;
+    }
+
+    #Photo {
+        margin: 0;
+    }
+
+
 }
 
 /* <!-- Middle Third Section --> */
